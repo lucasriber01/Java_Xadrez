@@ -1,14 +1,12 @@
 import tabuleirogame.Posicao;
+import tabuleirogame.Tabuleiro;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Posicao p1 =  new Posicao(3,5);
-		
-		System.out.println(p1);
-
+		Tabuleiro tab = new Tabuleiro(8,8);
 	}
 
 }

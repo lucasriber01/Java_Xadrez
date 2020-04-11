@@ -15,7 +15,7 @@ public class PartidaXadrez {
 
 		for(int i=0; i<tabuleiro.getLinha(); i++) {
 			for(int j=0 ; j<tabuleiro.getColuna(); j++) {
-			mat[i][j] = (PecaXadrez) tabuleiro.pecas(i,j);
+			mat[i][j] = (PecaXadrez) tabuleiro.pecas(i , j);
 			}
 			
 		}

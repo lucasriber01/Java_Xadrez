@@ -41,12 +41,16 @@ public class Tabuleiro {
 		this.coluna = coluna;
 	}
 
-
-
-	public PecaXadrez pecas(int i, int j) {
-		// TODO Auto-generated method stub
-		return null;
+	public Pecas pecas(int linha , int coluna) {
+		return pecas[linha][coluna];
 	}
+	
+	public Pecas pecas (Posicao position) {
+		return pecas[position.getLinha()][position.getColuna()];
+	}
+
+
+	
 	
 	
 	

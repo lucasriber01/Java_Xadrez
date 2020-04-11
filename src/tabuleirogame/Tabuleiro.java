@@ -1,5 +1,7 @@
 package tabuleirogame;
 
+import xadrez.PecaXadrez;
+
 public class Tabuleiro {
 	
 	private int linha;
@@ -8,7 +10,7 @@ public class Tabuleiro {
 	
 	
 	
-	public Tabuleiro(int linha, int coluna) {
+	public  Tabuleiro(int linha, int coluna) {
 																																																																																																																																																																																																
 		this.linha = linha;
 		this.coluna = coluna;
@@ -37,6 +39,13 @@ public class Tabuleiro {
 
 	public void setColuna(int coluna) {
 		this.coluna = coluna;
+	}
+
+
+
+	public PecaXadrez pecas(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	
